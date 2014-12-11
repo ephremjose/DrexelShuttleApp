@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.drexel.rephrem.drexelshuttleapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.drexel.rephrem.drexelshuttleapp.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ListStopsActivity"
+            android:label="@string/title_activity_list_blue_stops"
+            android:parentActivityName="com.drexel.rephrem.drexelshuttleapp.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.drexel.rephrem.drexelshuttleapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ListStopsTimeActivity"
+            android:label="@string/title_activity_list_blue_stops_time"
+            android:parentActivityName=".activity.ListStopsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.drexel.rephrem.drexelshuttleapp.source.ListBlueStopsActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ListCompleteStopTimesActivity"
+            android:label="@string/title_activity_list_complete_blue_stop_times"
+            android:parentActivityName=".activity.ListStopsTimeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.drexel.rephrem.drexelshuttleapp.source.ListBlueStopsTimeActivity" />
+        </activity>
+        <activity
+            android:name="com.drexel.rephrem.drexelshuttleapp.activity.ShowFavoriteActivity"
+            android:label="@string/title_activity_show_favorite"
+            android:parentActivityName="com.drexel.rephrem.drexelshuttleapp.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.drexel.rephrem.drexelshuttleapp.source.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DREXEL SHUTTLE</string>
+    <string name="hello_world">Hello  world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_blue">BLUE &amp; GOLD</string>
+    <string name="name_dragon">DRAGON ROUTE</string>
+    <string name="name_queens">QUEENS LANE</string>
+    <string name="favorite">FAVORITE</string>
+    <string name="title_activity_list_blue_stops">ListBlueStopsActivity</string>
+    <string name="title_activity_list_blue_stops_time">ListBlueStopsTimeActivity</string>
+    <string name="title_activity_list_complete_blue_stop_times">ListCompleteBlueStopTimesActivity</string>
+    <string name="title_activity_show_favorite">ShowFavoriteActivity</string>
+
+</resources>
