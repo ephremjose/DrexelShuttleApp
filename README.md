@@ -4,6 +4,7 @@ DrexelShuttleApp
 - Primary objective of the project is to make the real-time shuttle service schedule available to the users.  
 - This is a standalone application that uses SQLite database as a backend which is loaded with records corresponding to shuttle timings of each route and its associated stops. The application enables to view them in a user friendly and efficient manner.
 
+For more  information on the project, please refer to the video tutorial at http://youtu.be/HqO6jheqdhg . 
 SetUp:
 ======
 The code can be built and simulated by following the below instructions:
